@@ -1,0 +1,14 @@
+# 本地验证脚本目录（headless 浏览器截图 / 探针输出）
+.check/
+
+# 操作系统与编辑器杂物
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# 依赖与日志（本项目无依赖，保险起见）
+node_modules/
+npm-debug.log*

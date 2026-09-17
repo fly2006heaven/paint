@@ -1,0 +1,14 @@
+# 统一换行符，避免 Windows 提交后整文件被 CRLF 重写
+* text=auto eol=lf
+
+# 图片按二进制处理
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.webp binary
+*.avif binary
+*.gif binary
+
+# GitHub 语言统计：把站点主体识别为 HTML
+*.html linguist-detectable=true
+*.mjs  linguist-detectable=true
